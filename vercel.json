@@ -1,6 +1,6 @@
 {
-  "installCommand": "npm install",
-  "buildCommand": "npm install && npx vite build",
+  "installCommand": "npm install --include=dev",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
